@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.nuxt/
+.output/
+.cache/
+output/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+.idea/

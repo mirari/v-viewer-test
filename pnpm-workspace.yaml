@@ -1,0 +1,9 @@
+packages:
+  - apps/*
+
+allowBuilds:
+  esbuild: true
+  '@parcel/watcher': true
+
+minimumReleaseAgeExclude:
+  - v-viewer@4.0.0 || 5.0.0

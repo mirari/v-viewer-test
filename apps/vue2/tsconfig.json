@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "types": ["vite/client"],
+    "esModuleInterop": true,
+    "skipLibCheck": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "../../shared/**/*.ts"],
+  "vueCompilerOptions": { "target": 2.7 }
+}
